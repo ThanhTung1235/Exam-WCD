@@ -8,7 +8,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
-    List<Employee> list = (List<Employee>) request.getAttribute("list");
+    List<Employee> list = (List<Employee>) request.getAttribute("employee");
 
 %>
 <html>
