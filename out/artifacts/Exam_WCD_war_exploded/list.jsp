@@ -21,7 +21,8 @@
         for (int i = 0; i < list.size(); i++) {
     %>
     <li>
-         <span><%= list.get(i).getId()%></span> <span><%= list.get(i).getFullname()%></span> - <span><%= list.get(i).getAddress()%></span> - <span><%= list.get(i).getBirthday()%></span> - <span><%= list.get(i).getDepartment()%></span> - <span><%= list.get(i).getPosition()%></span>
+        <a href="/classroom/detail?id=<%=list.get(i).getId()%>"><%= list.get(i).getFullname()%>
+        </a>
     </li>
     <%
         }

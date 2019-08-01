@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Exam-WCD:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Exam_WCD_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Exam-WCD/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Exam-WCD" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
